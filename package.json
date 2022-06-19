@@ -4,6 +4,7 @@
   "description": "API базы фильмов на GraphQL",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Omurbek1/GqapQL/issues"
   },
-  "homepage": "https://github.com/Omurbek1/GqapQL#readme"
+  "homepage": "https://github.com/Omurbek1/GqapQL#readme",
+  "dependencies": {
+    "graphql-yoga": "^2.9.2"
+  }
 }
