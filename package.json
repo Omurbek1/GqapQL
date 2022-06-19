@@ -4,8 +4,7 @@
   "description": "API базы фильмов на GraphQL",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,10 @@
   },
   "homepage": "https://github.com/Omurbek1/GqapQL#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "*",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
     "graphql-yoga": "^2.9.2"
   }
 }
