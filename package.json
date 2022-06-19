@@ -4,7 +4,7 @@
   "description": "API базы фильмов на GraphQL",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "babel-node": "*",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
+    "graphql": "^16.5.0",
     "graphql-yoga": "^2.9.2"
   }
 }

@@ -1,7 +1,9 @@
-import { GraphQLServer } from 'graphql-yoga'
+import { createServer } from '@graphql-yoga/node'
+import resolvers from './graphql/resolvers';
 
-const server = new GraphQLServer({
-
+var server = new createServer({
+    typeDefs: 'graphql/schema.graphql',
+    resolvers,
 });
 
-server.start(() => console.log('server Grapql start'));
+server.start(() => console.log('Ийгиликтуу иштети'));
